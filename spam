@@ -7,6 +7,6 @@ local settings = {
 local chatrem = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
 
 while task.wait(settings.AutoChat_Time) do
-    chatrem:FireServer('span Do YOU want LOTS of Bots??Then👉👉 DM BlatantHax 5145👈👈 A Butiful UI And A Easy Setup!', "All")
+    chatrem:FireServer('Do YOU want LOTS of Bots??Then👉👉 DM BlatantHax 5145👈👈 A Butiful UI And A Easy Setup!', "All")
     print("Sent Message")
 end
