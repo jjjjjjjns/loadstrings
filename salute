@@ -1,0 +1,5 @@
+local character = game.Players.LocalPlayer.Character
+local animation = Instance.new("Animation")
+animation.AnimationId = "rbxassetid://3360689775"
+local animTrack = character.Humanoid:LoadAnimation(animation)
+animTrack:Play()
