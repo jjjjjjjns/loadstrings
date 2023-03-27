@@ -1,0 +1,8 @@
+-- discord server for updates | https://discord.gg/wZrvdGZDCd
+-- script:
+
+getgenv().controller = "zzzukidad"
+
+alts = { alt1 = "TeamBlatantBotV2_1", alt2 = "TeamBlatantBotV2_2", -- switch to other accounts username to add them. alt3 = "TeamBlatantBotV2_3", alt4 = "TeamBlatantBotV2_4", alt5 = "TeamBlatantBotV2_5", alt6 = "TeamBlatantBotV2_6", alt7 = "TeamBlatantBotV2_7", alt8 = "TeamBlatantBotV2_8", alt9 = "TeamBlatantBotV2_9", alt10 = "TeamBlatantBotV2_10" }
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hologrammw/holo-alt-control/main/altcontrol.lua", true))()
